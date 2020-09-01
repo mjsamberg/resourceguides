@@ -61,25 +61,30 @@ In addition to creating accessible images, the use of color in resources creates
 In a chart, each visual element should also contrast sufficiently. For example, in a bar graph, each bar should be sufficient contrast from each other bar (see [this guide from Penn State][25]). In addition, color should not be the only indicator of information. For example, labeling your axes, using shedding patters, etc. to differentiate between data points. 
 
 ## Headings
-Screen readers, table of contents tools, and keyboard navigation use headings to navigate the screen. In addition to using proper heading styling, headings should be _nested_ such that Level 1, Level 2, Level 3 headings, etc. do not appear out of order. Level 2 headings should only appear under level 1 headings, and Level 3 headings should only appear under Level 2 headings. 
+Screen readers, table of contents tools, and keyboard navigation use headings to navigate the screen. In addition to using proper heading styling, headings should be _nested_ such that Level 1, Level 2, Level 3 headings, etc. do not appear out of order. Level 2 headings should only appear under level 1 headings, and Level 3 headings should only appear under Level 2 headings. Additionally, it’s recommended that on web pages, there is only one Level 1 heading - the page title. While this isn’t a requirement, there should be at least one level one heading on each page and it generally works out that the page title as a Level 1 Heading and using Level 2 throughout the rest of the page is the easiest approach (as on this page).
 
 ## Microsoft Office and Google Drive
 Whether in webpages or in documents, many of the same accessibility rules above apply - images should have alt text, table rows should be labeled, etc. In addition, you should use _semantic styling_ in **all** documents, including Word Docs, Google Docs, and HTML files. Semantic styling involves identifying elements in a document by what they are, rather than how they look. Whereas typically, to designate a header in Google Docs, you might simply bold the text, when styling semantically, you would use the styles pane to designate an element as a header, and then style the header through the styles pane.
 * [Using and editing styles in Word][26]
 * [Using and editing styles in Google Docs][27]
 
-## Accessibility Checking
+### Accessibility Checking
 [Microsoft Office features a built-in accessibility checker][28] across all Office apps. This tool will check accessibility features in your document 
 
+Google Docs does not have a tool like this built in. However, the [Grackle Docs extension][29] does this in Google Docs. 
+
+### Voice Typing and Reading Support Tools
+You can type with your voice In both [Google Docs][30] and [Microsoft Office][31] which is helpful for students with motor disabilities. Additionally, Microsoft Word will provide [readability statistics][32], and has a built in reading support tool called [Immersive Reader][33].  
+
 ## PDF Files
-The PDF format has significant problems with accessibility, especially when designed natively in Acrobat. The best practices are to [design in Word, and then export to PDF][29]. Confirm accessibility in Word before exporting. Additionally, it is recommended to make documents available in another format.
+The PDF format has significant problems with accessibility, especially when designed natively in Acrobat. The best practices are to [design in Word, and then export to PDF][34]. Confirm accessibility in Word before exporting. Additionally, it is recommended to make documents available in another format.
 
 Documents that are scanned to PDF are not accessible.  
 
 ## The Checklists
-* [University of Washington][30]
-* [SUNY Broome][31]
-* [Cornell][32]
+* [University of Washington][35]
+* [SUNY Broome][36]
+* [Cornell][37]
 
 [1]:	https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/
 [2]:	https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/
@@ -109,10 +114,15 @@ Documents that are scanned to PDF are not accessible.
 [26]:	https://www.dummies.com/software/microsoft-office/how-to-apply-styles-and-style-sets-in-word-2019/
 [27]:	https://gsuitetips.com/tips/docs/customise-your-styles-in-google-docs/
 [28]:	https://support.microsoft.com/en-us/office/improve-accessibility-with-the-accessibility-checker-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f
-[29]:	https://www.howtogeek.com/352668/how-to-convert-a-microsoft-word-document-to-a-pdf/
-[30]:	https://depts.washington.edu/uwdrs/faculty/online-course-accessibility-checklist/
-[31]:	http://www3.sunybroome.edu/online/wp-content/uploads/sites/11/2019/05/Accessibility-Checklist-for-Online-Courses.pdf
-[32]:	http://www3.sunybroome.edu/online/wp-content/uploads/sites/11/2019/05/Accessibility-Checklist-for-Online-Courses.pdf
+[29]:	https://www.grackledocs.com/how-it-works/
+[30]:	https://support.google.com/docs/answer/4492226?hl=en
+[31]:	https://support.microsoft.com/en-us/office/dictate-in-microsoft-365-eab203e1-d030-43c1-84ef-999b0b9675fe
+[32]:	https://support.microsoft.com/en-us/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2
+[33]:	https://www.onenote.com/learningtools
+[34]:	https://www.howtogeek.com/352668/how-to-convert-a-microsoft-word-document-to-a-pdf/
+[35]:	https://depts.washington.edu/uwdrs/faculty/online-course-accessibility-checklist/
+[36]:	http://www3.sunybroome.edu/online/wp-content/uploads/sites/11/2019/05/Accessibility-Checklist-for-Online-Courses.pdf
+[37]:	http://www3.sunybroome.edu/online/wp-content/uploads/sites/11/2019/05/Accessibility-Checklist-for-Online-Courses.pdf
 
 [image-1]:	https://mjsamberg.github.io/courses/dlprograms/content/karwai-infographics.png
 [image-2]:	https://study.com/cimages/videopreview/videopreview-full/q9lhim9769.jpg
