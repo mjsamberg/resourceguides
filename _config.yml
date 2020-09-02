@@ -23,7 +23,7 @@ college_url: https://ced.ncsu.edu
 unit_url: https://www.fi.ncsu.edu
 email: "mjsamber@ncsu.edu"
 description: >- # this means to ignore newlines until "baseurl:"
-  A Bootstrap 4 start up project for Jekyll and Github Pages
+  Resource guides.
 #baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
 facebook_username: TheFridayInstitute
