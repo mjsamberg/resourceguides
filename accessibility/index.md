@@ -85,6 +85,12 @@ In addition to creating accessible images, the use of color in resources creates
 
 In a chart, each visual element should also contrast sufficiently. For example, in a bar graph, each bar should be sufficient contrast from each other bar (see [this guide from Penn State][32]). In addition, color should not be the only indicator of information. For example, labeling your axes, using shedding patters, etc. to differentiate between data points. 
 
+You should use captions to title a figure (in a way that’s tied to the table). In Word and Google Docs, [you can right-click on tables to add a title][33]. In HTML, use this syntax around your image:
+	<figure>
+		<img src="image.jpg" alt="Image Alt Text">
+		<figcaption>Figure caption</figcaption>
+	</figure>
+
 ## Headings
 Screen readers, table of contents tools, and keyboard navigation use headings to navigate the screen. In addition to using proper heading styling, headings should be _nested_ such that Level 1, Level 2, Level 3 headings, etc. do not appear out of order. Level 2 headings should only appear under level 1 headings, and Level 3 headings should only appear under Level 2 headings. Additionally, it’s recommended that on web pages, there is only one Level 1 heading - the page title. While this isn’t a requirement, there should be at least one level one heading on each page and it generally works out that the page title as a Level 1 Heading and using Level 2 throughout the rest of the page is the easiest approach (as on this page).
 
@@ -92,12 +98,12 @@ Screen readers, table of contents tools, and keyboard navigation use headings to
 Many screen readers will allow users to navigate links on a web page as a list. For users with motor disabilities, an accessible website allows for navigation using only the tab and arrow keys to move between links (and the Enter key to select them). Additionally, to simplify the user experience, links should be descriptive and should help the user figure out where they will be linking to. Avoid making the link the word “here” and avoid using the same words for multiple links in a document. 
 
 For example: 
-_Learn more about the [Friday Institute][33] by clicking [here][34], [here][35], and [here][36]._
+_Learn more about the [Friday Institute][34] by clicking [here][35], [here][36], and [here][37]._
 
 From this sentence, it’s not clear what users will be learning about when they click on the link. Secondarily, on phone screens, the words “here” are too close together and may not make a large enough tap target for someone with limited dexterity to click on. Instead, word links descriptively, like:
-_Learn more about the [Friday Institute][37], [our mission][38], [our projects][39], and [our people][40]. _
+_Learn more about the [Friday Institute][38], [our mission][39], [our projects][40], and [our people][41]. _
 
-Additionally, since some users may not be aware of changes in the active window, it is a best practice to inform users when the link they click on will open in a new tab. Some websites add the text “(opens in a new tab)” to the link text. Others use an icon and [include ARIA tags to inform users that their site will open in a new window][41].
+Additionally, since some users may not be aware of changes in the active window, it is a best practice to inform users when the link they click on will open in a new tab. Some websites add the text “(opens in a new tab)” to the link text. Others use an icon and [include ARIA tags to inform users that their site will open in a new window][42].
 
 ## Tables
 Tables with a designated header row and column should have columns designated as such so that screen readers and other format converters will read the header information with the cell data, and so that headers will be shown on each printed page.
@@ -105,6 +111,7 @@ Tables with a designated header row and column should have columns designated as
 In HTML, this is done as follows:
 
 	<table>
+		<caption>Table Title</caption> <!--Table Title-->
 		<thead> <!--Table Header-->
 			<tr> <!--start header row-->
 				<th> <!--use th instead of td to designate a table header-->
@@ -127,41 +134,41 @@ In HTML, this is done as follows:
 		</tbody>
 	</table>
 
-In Microsoft Word, [you can designate a table header row][42], as well as add alt text for a table. For Microsoft Excel, you can [create named regions to designate a table][43]. 
+In Microsoft Word, [you can designate a table header row][43], as well as add alt text for a table. For Microsoft Excel, you can [create named regions to designate a table][44]. Additionally, you should use captions to title a table so that users know the title of a table (in a way that’s tied to the table). In Word and Google Docs, [you can right-click on tables to add a title][45]. In HTML, use the `<caption>` tag inside your table tag to add a title.
 
 ## Microsoft Office and Google Drive
 Whether in webpages or in documents, many of the same accessibility rules above apply - images should have alt text, table rows should be labeled, etc. In addition, you should use _semantic styling_ in **all** documents, including Word Docs, Google Docs, and HTML files. Semantic styling involves identifying elements in a document by what they are, rather than how they look. Whereas typically, to designate a header in Google Docs, you might simply bold the text, when styling semantically, you would use the styles pane to designate an element as a header, and then style the header through the styles pane.
-* [Using and editing styles in Word][44]
-* [Using and editing styles in Google Docs][45]
+* [Using and editing styles in Word][46]
+* [Using and editing styles in Google Docs][47]
 
-PowerPoint has a [number of accessibility features][46] (beyond alt text and the other items discussed). Specifically, you’ll want to make sure that you use named regions on your slides (title text, subtitle text, body text, etc.) as intended and set a reading order for your slides to ensure that a screen reader would read items in the correct sequence.
+PowerPoint has a [number of accessibility features][48] (beyond alt text and the other items discussed). Specifically, you’ll want to make sure that you use named regions on your slides (title text, subtitle text, body text, etc.) as intended and set a reading order for your slides to ensure that a screen reader would read items in the correct sequence.
 
 ### Accessibility Checking
-[Microsoft Office features a built-in accessibility checker][47] across all Office apps. This tool will check accessibility features in your document 
+[Microsoft Office features a built-in accessibility checker][49] across all Office apps. This tool will check accessibility features in your document 
 
-Google Docs does not have a tool like this built in. However, the [Grackle Docs extension][48] does this in Google Docs. 
+Google Docs does not have a tool like this built in. However, the [Grackle Docs extension][50] does this in Google Docs. 
 
 ### Voice Typing and Reading Support Tools
-You can type with your voice In both [Google Docs][49] and [Microsoft Office][50] which is helpful for students with motor disabilities. Additionally, Microsoft Word will provide [readability statistics][51], and has a built in reading support tool called [Immersive Reader][52].  
+You can type with your voice In both [Google Docs][51] and [Microsoft Office][52] which is helpful for students with motor disabilities. Additionally, Microsoft Word will provide [readability statistics][53], and has a built in reading support tool called [Immersive Reader][54].  
 
 ## PDF Files
-The PDF format has significant problems with accessibility, especially when designed natively in Acrobat. The best practices are to [design in Word, and then export to PDF][53]. Confirm accessibility in Word before exporting. Additionally, it is recommended to make documents available in another format.
+The PDF format has significant problems with accessibility, especially when designed natively in Acrobat. The best practices are to [design in Word, and then export to PDF][55]. Confirm accessibility in Word before exporting. Additionally, it is recommended to make documents available in another format.
 
 Documents that are scanned to PDF are not accessible.  
 
 ## Websites and Web-Based Applications
-When designing a web page, consider all of the elements above, and use that to create proper, [semantically-styled HTML5][54]. While many built-in editors in content management systems like Moodle and WordPress will do a good job on their own, they may not be perfect and some manual code editing is sometimes (though rarely) required. The [WAVE tool][55] will check accessibility  for a website against the [Web Content Accessibility (WCAG) Guidelines][56]. The current version of WCAG guidelines is version 2.1. WCAG is based on a three-tier system from single-A to triple-A (AAA). WCAG-2.1-A guidelines are the least strict (and the most minimally accessible) while WCAG-2.1-AAA is the most strict. NC State policy requires compliance with [WCAG-2.1-AA][57]. 
+When designing a web page, consider all of the elements above, and use that to create proper, [semantically-styled HTML5][56]. While many built-in editors in content management systems like Moodle and WordPress will do a good job on their own, they may not be perfect and some manual code editing is sometimes (though rarely) required. The [WAVE tool][57] will check accessibility  for a website against the [Web Content Accessibility (WCAG) Guidelines][58]. The current version of WCAG guidelines is version 2.1. WCAG is based on a three-tier system from single-A to triple-A (AAA). WCAG-2.1-A guidelines are the least strict (and the most minimally accessible) while WCAG-2.1-AAA is the most strict. NC State policy requires compliance with [WCAG-2.1-AA][59]. 
 
 One particular element of WCAG-2.1-AA is navigation. For users using assistive or adaptive devices who may not be able to use a mouse, they should be able to navigate a website using only arrow keys (including Page-Up and Page-Down), the tab key to move between links, and the Enter key to select a link.
 
-Commercial web applications using a [Voluntary Product Accessibility Template][58] (VPAT) to indicate their compliance with WCAG or Section 508 standards. 
+Commercial web applications using a [Voluntary Product Accessibility Template][60] (VPAT) to indicate their compliance with WCAG or Section 508 standards. 
 
 ## The Checklists
-* [University of Washington][59]
-* [SUNY Broome][60]
-* [Cornell][61]
-* [NCDAE Cheat Sheets][62]
-* [Section 508 Website][63]
+* [University of Washington][61]
+* [SUNY Broome][62]
+* [Cornell][63]
+* [NCDAE Cheat Sheets][64]
+* [Section 508 Website][65]
 
 [1]:	https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines
 [2]:	https://www.section508.gov/manage/laws-and-policies#:~:text=Section%20504%20%2D%20Prohibits%20federal%20agencies,for%20qualified%20individuals%20with%20disabilities
@@ -195,37 +202,39 @@ Commercial web applications using a [Voluntary Product Accessibility Template][5
 [30]:	https://blog.iconosquare.com/instagram-alt-text/
 [31]:	https://webaim.org/resources/contrastchecker/
 [32]:	https://accessibility.psu.edu/images/charts/
-[33]:	http://www.fi.ncsu.edu
-[34]:	https://www.fi.ncsu.edu/about/
-[35]:	https://www.fi.ncsu.edu/projects/
-[36]:	https://www.fi.ncsu.edu/directory/
-[37]:	http://www.fi.ncsu.edu
-[38]:	https://www.fi.ncsu.edu/about/
-[39]:	https://www.fi.ncsu.edu/projects/
-[40]:	https://www.fi.ncsu.edu/directory/
-[41]:	https://medium.com/@svinkle/why-let-someone-know-when-a-link-opens-a-new-window-8699d20ed3b1
-[42]:	https://kb.iu.edu/d/aqjl#headrow
-[43]:	https://sbctc.instructure.com/courses/1578604/pages/creating-accessible-excel-spreadsheets
-[44]:	https://www.dummies.com/software/microsoft-office/how-to-apply-styles-and-style-sets-in-word-2019/
-[45]:	https://gsuitetips.com/tips/docs/customise-your-styles-in-google-docs/
-[46]:	https://support.microsoft.com/en-us/office/make-your-powerpoint-presentations-accessible-to-people-with-disabilities-6f7772b2-2f33-4bd2-8ca7-dae3b2b3ef25
-[47]:	https://support.microsoft.com/en-us/office/improve-accessibility-with-the-accessibility-checker-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f
-[48]:	https://www.grackledocs.com/how-it-works/
-[49]:	https://support.google.com/docs/answer/4492226?hl=en
-[50]:	https://support.microsoft.com/en-us/office/dictate-in-microsoft-365-eab203e1-d030-43c1-84ef-999b0b9675fe
-[51]:	https://support.microsoft.com/en-us/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2
-[52]:	https://www.onenote.com/learningtools
-[53]:	https://www.howtogeek.com/352668/how-to-convert-a-microsoft-word-document-to-a-pdf/
-[54]:	https://www.w3schools.com/html/html5_semantic_elements.asp
-[55]:	https://wave.webaim.org/
-[56]:	https://www.w3.org/TR/WCAG21/
-[57]:	https://www.w3.org/WAI/WCAG21/quickref/?currentsidebar=%23col_customize&levels=aaa
-[58]:	https://www.section508.gov/sell/vpat
-[59]:	https://depts.washington.edu/uwdrs/faculty/online-course-accessibility-checklist/
-[60]:	http://www3.sunybroome.edu/online/wp-content/uploads/sites/11/2019/05/Accessibility-Checklist-for-Online-Courses.pdf
-[61]:	http://www3.sunybroome.edu/online/wp-content/uploads/sites/11/2019/05/Accessibility-Checklist-for-Online-Courses.pdf
-[62]:	http://ncdae.org/resources/cheatsheets/
-[63]:	https://www.section508.gov/create
+[33]:	https://support.microsoft.com/en-us/office/add-format-or-delete-captions-in-word-82fa82a4-f0f3-438f-a422-34bb5cef9c81
+[34]:	http://www.fi.ncsu.edu
+[35]:	https://www.fi.ncsu.edu/about/
+[36]:	https://www.fi.ncsu.edu/projects/
+[37]:	https://www.fi.ncsu.edu/directory/
+[38]:	http://www.fi.ncsu.edu
+[39]:	https://www.fi.ncsu.edu/about/
+[40]:	https://www.fi.ncsu.edu/projects/
+[41]:	https://www.fi.ncsu.edu/directory/
+[42]:	https://medium.com/@svinkle/why-let-someone-know-when-a-link-opens-a-new-window-8699d20ed3b1
+[43]:	https://kb.iu.edu/d/aqjl#headrow
+[44]:	https://sbctc.instructure.com/courses/1578604/pages/creating-accessible-excel-spreadsheets
+[45]:	https://support.microsoft.com/en-us/office/add-format-or-delete-captions-in-word-82fa82a4-f0f3-438f-a422-34bb5cef9c81
+[46]:	https://www.dummies.com/software/microsoft-office/how-to-apply-styles-and-style-sets-in-word-2019/
+[47]:	https://gsuitetips.com/tips/docs/customise-your-styles-in-google-docs/
+[48]:	https://support.microsoft.com/en-us/office/make-your-powerpoint-presentations-accessible-to-people-with-disabilities-6f7772b2-2f33-4bd2-8ca7-dae3b2b3ef25
+[49]:	https://support.microsoft.com/en-us/office/improve-accessibility-with-the-accessibility-checker-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f
+[50]:	https://www.grackledocs.com/how-it-works/
+[51]:	https://support.google.com/docs/answer/4492226?hl=en
+[52]:	https://support.microsoft.com/en-us/office/dictate-in-microsoft-365-eab203e1-d030-43c1-84ef-999b0b9675fe
+[53]:	https://support.microsoft.com/en-us/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2
+[54]:	https://www.onenote.com/learningtools
+[55]:	https://www.howtogeek.com/352668/how-to-convert-a-microsoft-word-document-to-a-pdf/
+[56]:	https://www.w3schools.com/html/html5_semantic_elements.asp
+[57]:	https://wave.webaim.org/
+[58]:	https://www.w3.org/TR/WCAG21/
+[59]:	https://www.w3.org/WAI/WCAG21/quickref/?currentsidebar=%23col_customize&levels=aaa
+[60]:	https://www.section508.gov/sell/vpat
+[61]:	https://depts.washington.edu/uwdrs/faculty/online-course-accessibility-checklist/
+[62]:	http://www3.sunybroome.edu/online/wp-content/uploads/sites/11/2019/05/Accessibility-Checklist-for-Online-Courses.pdf
+[63]:	http://www3.sunybroome.edu/online/wp-content/uploads/sites/11/2019/05/Accessibility-Checklist-for-Online-Courses.pdf
+[64]:	http://ncdae.org/resources/cheatsheets/
+[65]:	https://www.section508.gov/create
 
 [image-1]:	https://mjsamberg.github.io/courses/dlprograms/content/karwai-infographics.png
 [image-2]:	https://study.com/cimages/videopreview/videopreview-full/q9lhim9769.jpg
