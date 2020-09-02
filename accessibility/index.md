@@ -2,21 +2,27 @@
 layout: page
 title: Accessibility
 ---
+<h2 class="sr-only">Presentation</h2>
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="presentation.html"></iframe>
+</div>
+<hr class="mb-5">
 ## Legal Requirements for Accessibility
 * [Section 508 of the Rehabilitation Act of 1973][1] ([Overview][2])
 * [Section 504 of the Rehabilitation Act of 1973][3]
 * [Title II of the Americans with Disabilities Act][4]
 * [Individuals With Disabilities Education Act][5]
+
 ## General Accessibility Guidelines
 [![Accessibility Guideline Posters via the UK Accessibility Office https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/][image-1]][6]
-Remember these accessibility guidelines from the [U.K. Accessibility Office][7], including:
+Remember these accessibility [guidelines from the U.K. Accessibility Office][7], including:
 * Use clear language and consistent layouts
 * Use bullet points and simple sentences
 * Avoid bright, busy layouts
 * Use readable font sizes and good contrast
 * Don’t bury information in downloads
 * Use headings, subheadings, and videos
-* Spread interactive out over a document
+* Spread interactives out over a document
 
 ## Universal Design for Learning
 [Universal Design for Learning][8], a framework designed by Anne Meyer and David Rose, supports teachers in designing high-quality learning experiences for all learners. While this includes accessible content, it is much more. UDL is designed to support all students, presenting materials in multiple ways, giving students flexibility to interact with the material in the way that works best for them, and provides for different ways for students to express their knowledge. The intent of a UDL classroom is inaccurately summarized as an “IEP for all students”, providing each with the supports and accommodations they need, which can reduce stigma for all students and provide them the tools they need. The core principle of UDL is that “designing for those on the margins improves the experience for all. 
@@ -62,7 +68,7 @@ In a pre-made video or a meeting recording,  captions are a bit easier:
 Keep in mind that the PowerPoints and other materials shared on screen sharing during a Zoom call, or embedded in a video, are not accessible. It’s recommended that you share slide decks with users ahead of time and share the link in the chat so that users can access them. If you share your screen during a presentation, narrate your actions so that someone can recreate them.  If necessary, you may need to [create an audio description track][26] to narrate actions separate from the main video. 
 
 ## Fonts
-The use of fonts should be kept to a minimum of easily-readable fonts. 12 point minimum is recommended on documents. 14 point minimum is now recommended on websites, and 18 point font is recommended on slides. Use the [WebAIM contrast checker][27] to ensure that sufficient contrast exists between your text and your background at the font size you are using.
+The use of fonts should be kept to a minimum number of easily-readable fonts. 12 point minimum is recommended on documents. 14 point minimum is now recommended on websites, and 18 point font is recommended on slides. Use the [WebAIM contrast checker][27] to ensure that sufficient contrast exists between your text and your background at the font size you are using.
 
 ## Images
 In presentations, reports, and web pages, images need to be annotated with alternative text (also called an alt-tag) that describes the content of the image. This allows users who can’t access the image (due to a visual impairment, low bandwidth connection, etc.) to understand the contents. Alternative text **must** be used for every image in a document unless the image is purely decorative and serves no functional purpose in the document. Alt text should also describe the _contents_ of the image, and not the image itself. Consider the example below. Using alt-text of “The water cycle” for this image is inadequate because it does not describe the contents of the image. You would need to use a describe tag such as “The water cycle: the process by which water in the oceans evaporates, condenses to form clouds, falls to the ground as rain, and is again collected in the ocean.” The content of an image should also be reflected in a document. For example, a graph can be alt-tagged, but the description of the key findings (and ideally, a data table) should be included in a document. For complicated charts, it is acceptable to reference the discussion section of a paper if the information conveyed there will explain the chart. Alt tags are added differently in different applications. In Moodle, there is an alt-text field when adding an image. In Office and Google Docs, you can right-click on an image to add the alt text. You can also add alt-text on [Twitter][28], [Facebook][29], and [Instagram][30]. 
@@ -90,6 +96,8 @@ _Learn more about the [Friday Institute][33] by clicking [here][34], [here][35],
 
 From this sentence, it’s not clear what users will be learning about when they click on the link. Secondarily, on phone screens, the words “here” are too close together and may not make a large enough tap target for someone with limited dexterity to click on. Instead, word links descriptively, like:
 _Learn more about the [Friday Institute][37], [our mission][38], [our projects][39], and [our people][40]. _
+
+Additionally, since some users may not be aware of changes in the active window, it is a best practice to inform users when the link they click on will open in a new tab. Some websites add the text “(opens in a new tab)” to the link text. Others use an icon and [include ARIA tags to inform users that their site will open in a new window][41].
 
 ## Tables
 Tables with a designated header row and column should have columns designated as such so that screen readers and other format converters will read the header information with the cell data, and so that headers will be shown on each printed page.
@@ -119,41 +127,41 @@ In HTML, this is done as follows:
 		</tbody>
 	</table>
 
-In Microsoft Word, [you can designate a table header row][41], as well as add alt text for a table. For Microsoft Excel, you can [create named regions to designate a table][42]. 
+In Microsoft Word, [you can designate a table header row][42], as well as add alt text for a table. For Microsoft Excel, you can [create named regions to designate a table][43]. 
 
 ## Microsoft Office and Google Drive
 Whether in webpages or in documents, many of the same accessibility rules above apply - images should have alt text, table rows should be labeled, etc. In addition, you should use _semantic styling_ in **all** documents, including Word Docs, Google Docs, and HTML files. Semantic styling involves identifying elements in a document by what they are, rather than how they look. Whereas typically, to designate a header in Google Docs, you might simply bold the text, when styling semantically, you would use the styles pane to designate an element as a header, and then style the header through the styles pane.
-* [Using and editing styles in Word][43]
-* [Using and editing styles in Google Docs][44]
+* [Using and editing styles in Word][44]
+* [Using and editing styles in Google Docs][45]
 
-PowerPoint has a [number of accessibility features][45] (beyond alt text and the other items discussed). Specifically, you’ll want to make sure that you use named regions on your slides (title text, subtitle text, body text, etc.) as intended and set a reading order for your slides to ensure that a screen reader would read items in the correct sequence.
+PowerPoint has a [number of accessibility features][46] (beyond alt text and the other items discussed). Specifically, you’ll want to make sure that you use named regions on your slides (title text, subtitle text, body text, etc.) as intended and set a reading order for your slides to ensure that a screen reader would read items in the correct sequence.
 
 ### Accessibility Checking
-[Microsoft Office features a built-in accessibility checker][46] across all Office apps. This tool will check accessibility features in your document 
+[Microsoft Office features a built-in accessibility checker][47] across all Office apps. This tool will check accessibility features in your document 
 
-Google Docs does not have a tool like this built in. However, the [Grackle Docs extension][47] does this in Google Docs. 
+Google Docs does not have a tool like this built in. However, the [Grackle Docs extension][48] does this in Google Docs. 
 
 ### Voice Typing and Reading Support Tools
-You can type with your voice In both [Google Docs][48] and [Microsoft Office][49] which is helpful for students with motor disabilities. Additionally, Microsoft Word will provide [readability statistics][50], and has a built in reading support tool called [Immersive Reader][51].  
+You can type with your voice In both [Google Docs][49] and [Microsoft Office][50] which is helpful for students with motor disabilities. Additionally, Microsoft Word will provide [readability statistics][51], and has a built in reading support tool called [Immersive Reader][52].  
 
 ## PDF Files
-The PDF format has significant problems with accessibility, especially when designed natively in Acrobat. The best practices are to [design in Word, and then export to PDF][52]. Confirm accessibility in Word before exporting. Additionally, it is recommended to make documents available in another format.
+The PDF format has significant problems with accessibility, especially when designed natively in Acrobat. The best practices are to [design in Word, and then export to PDF][53]. Confirm accessibility in Word before exporting. Additionally, it is recommended to make documents available in another format.
 
 Documents that are scanned to PDF are not accessible.  
 
 ## Websites and Web-Based Applications
-When designing a web page, consider all of the elements above, and use that to create proper, [semantically-styled HTML5][53]. While many built-in editors in content management systems like Moodle and WordPress will do a good job on their own, they may not be perfect and some manual code editing is sometimes (though rarely) required. The [WAVE tool][54] will check accessibility  for a website against the [Web Content Accessibility (WCAG) Guidelines][55]. The current version of WCAG guidelines is version 2.1. WCAG is based on a three-tier system from single-A to triple-A (AAA). WCAG-2.1-A guidelines are the least strict (and the most minimally accessible) while WCAG-2.1-AAA is the most strict. NC State policy requires compliance with [WCAG-2.1-AA][56]. 
+When designing a web page, consider all of the elements above, and use that to create proper, [semantically-styled HTML5][54]. While many built-in editors in content management systems like Moodle and WordPress will do a good job on their own, they may not be perfect and some manual code editing is sometimes (though rarely) required. The [WAVE tool][55] will check accessibility  for a website against the [Web Content Accessibility (WCAG) Guidelines][56]. The current version of WCAG guidelines is version 2.1. WCAG is based on a three-tier system from single-A to triple-A (AAA). WCAG-2.1-A guidelines are the least strict (and the most minimally accessible) while WCAG-2.1-AAA is the most strict. NC State policy requires compliance with [WCAG-2.1-AA][57]. 
 
 One particular element of WCAG-2.1-AA is navigation. For users using assistive or adaptive devices who may not be able to use a mouse, they should be able to navigate a website using only arrow keys (including Page-Up and Page-Down), the tab key to move between links, and the Enter key to select a link.
 
-Commercial web applications using a [Voluntary Product Accessibility Template][57] (VPAT) to indicate their compliance with WCAG or Section 508 standards. 
+Commercial web applications using a [Voluntary Product Accessibility Template][58] (VPAT) to indicate their compliance with WCAG or Section 508 standards. 
 
 ## The Checklists
-* [University of Washington][58]
-* [SUNY Broome][59]
-* [Cornell][60]
-* [NCDAE Cheat Sheets][61]
-* [Section 508 Website][62]
+* [University of Washington][59]
+* [SUNY Broome][60]
+* [Cornell][61]
+* [NCDAE Cheat Sheets][62]
+* [Section 508 Website][63]
 
 [1]:	https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines
 [2]:	https://www.section508.gov/manage/laws-and-policies#:~:text=Section%20504%20%2D%20Prohibits%20federal%20agencies,for%20qualified%20individuals%20with%20disabilities
@@ -195,28 +203,29 @@ Commercial web applications using a [Voluntary Product Accessibility Template][5
 [38]:	https://www.fi.ncsu.edu/about/
 [39]:	https://www.fi.ncsu.edu/projects/
 [40]:	https://www.fi.ncsu.edu/directory/
-[41]:	https://kb.iu.edu/d/aqjl#headrow
-[42]:	https://sbctc.instructure.com/courses/1578604/pages/creating-accessible-excel-spreadsheets
-[43]:	https://www.dummies.com/software/microsoft-office/how-to-apply-styles-and-style-sets-in-word-2019/
-[44]:	https://gsuitetips.com/tips/docs/customise-your-styles-in-google-docs/
-[45]:	https://support.microsoft.com/en-us/office/make-your-powerpoint-presentations-accessible-to-people-with-disabilities-6f7772b2-2f33-4bd2-8ca7-dae3b2b3ef25
-[46]:	https://support.microsoft.com/en-us/office/improve-accessibility-with-the-accessibility-checker-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f
-[47]:	https://www.grackledocs.com/how-it-works/
-[48]:	https://support.google.com/docs/answer/4492226?hl=en
-[49]:	https://support.microsoft.com/en-us/office/dictate-in-microsoft-365-eab203e1-d030-43c1-84ef-999b0b9675fe
-[50]:	https://support.microsoft.com/en-us/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2
-[51]:	https://www.onenote.com/learningtools
-[52]:	https://www.howtogeek.com/352668/how-to-convert-a-microsoft-word-document-to-a-pdf/
-[53]:	https://www.w3schools.com/html/html5_semantic_elements.asp
-[54]:	https://wave.webaim.org/
-[55]:	https://www.w3.org/TR/WCAG21/
-[56]:	https://www.w3.org/WAI/WCAG21/quickref/?currentsidebar=%23col_customize&levels=aaa
-[57]:	https://www.section508.gov/sell/vpat
-[58]:	https://depts.washington.edu/uwdrs/faculty/online-course-accessibility-checklist/
-[59]:	http://www3.sunybroome.edu/online/wp-content/uploads/sites/11/2019/05/Accessibility-Checklist-for-Online-Courses.pdf
+[41]:	https://medium.com/@svinkle/why-let-someone-know-when-a-link-opens-a-new-window-8699d20ed3b1
+[42]:	https://kb.iu.edu/d/aqjl#headrow
+[43]:	https://sbctc.instructure.com/courses/1578604/pages/creating-accessible-excel-spreadsheets
+[44]:	https://www.dummies.com/software/microsoft-office/how-to-apply-styles-and-style-sets-in-word-2019/
+[45]:	https://gsuitetips.com/tips/docs/customise-your-styles-in-google-docs/
+[46]:	https://support.microsoft.com/en-us/office/make-your-powerpoint-presentations-accessible-to-people-with-disabilities-6f7772b2-2f33-4bd2-8ca7-dae3b2b3ef25
+[47]:	https://support.microsoft.com/en-us/office/improve-accessibility-with-the-accessibility-checker-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f
+[48]:	https://www.grackledocs.com/how-it-works/
+[49]:	https://support.google.com/docs/answer/4492226?hl=en
+[50]:	https://support.microsoft.com/en-us/office/dictate-in-microsoft-365-eab203e1-d030-43c1-84ef-999b0b9675fe
+[51]:	https://support.microsoft.com/en-us/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2
+[52]:	https://www.onenote.com/learningtools
+[53]:	https://www.howtogeek.com/352668/how-to-convert-a-microsoft-word-document-to-a-pdf/
+[54]:	https://www.w3schools.com/html/html5_semantic_elements.asp
+[55]:	https://wave.webaim.org/
+[56]:	https://www.w3.org/TR/WCAG21/
+[57]:	https://www.w3.org/WAI/WCAG21/quickref/?currentsidebar=%23col_customize&levels=aaa
+[58]:	https://www.section508.gov/sell/vpat
+[59]:	https://depts.washington.edu/uwdrs/faculty/online-course-accessibility-checklist/
 [60]:	http://www3.sunybroome.edu/online/wp-content/uploads/sites/11/2019/05/Accessibility-Checklist-for-Online-Courses.pdf
-[61]:	http://ncdae.org/resources/cheatsheets/
-[62]:	https://www.section508.gov/create
+[61]:	http://www3.sunybroome.edu/online/wp-content/uploads/sites/11/2019/05/Accessibility-Checklist-for-Online-Courses.pdf
+[62]:	http://ncdae.org/resources/cheatsheets/
+[63]:	https://www.section508.gov/create
 
 [image-1]:	https://mjsamberg.github.io/courses/dlprograms/content/karwai-infographics.png
 [image-2]:	https://study.com/cimages/videopreview/videopreview-full/q9lhim9769.jpg

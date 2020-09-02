@@ -31,8 +31,7 @@ twitter_username: fridayinstitute
 github_username:  mjsamberg
 github_url: 
 
-repository: "nicolas-van/bootstrap-4-github-pages"
-
+repository: "mjsamberg/resourceguides"
 # Build settings
 plugins:
   - jekyll-feed

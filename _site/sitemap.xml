@@ -9,4 +9,12 @@
 <url>
 <loc>http://localhost:4000/</loc>
 </url>
+<url>
+<loc>http://localhost:4000/accessibility/presentation.html</loc>
+<lastmod>2020-09-01T20:28:11-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/assets/reveal-plugins/notes/speaker-view.html</loc>
+<lastmod>2020-08-31T16:36:59-04:00</lastmod>
+</url>
 </urlset>
