@@ -179,7 +179,7 @@ Commercial web applications using a [Voluntary Product Accessibility Template][6
 [5]:	https://sites.ed.gov/idea/topic-areas/#Accessibility-Creating-Content
 [6]:	https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/
 [7]:	https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/
-[8]:	Review%20the%20UDL%20Guidelines
+[8]:	http://udlguidelines.cast.org/
 [9]:	https://blog.ai-media.tv/blog/the-difference-between-deaf-and-hard-of-hearing
 [10]:	https://www.rev.com/blog/how-captions-benefit-more-than-the-deaf-and-hard-of-hearing
 [11]:	https://www.unimelb.edu.au/accessibility/video-captioning/style-guide
