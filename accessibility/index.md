@@ -86,6 +86,7 @@ In addition to creating accessible images, the use of color in resources creates
 In a chart, each visual element should also contrast sufficiently. For example, in a bar graph, each bar should be sufficient contrast from each other bar (see [this guide from Penn State][32]). In addition, color should not be the only indicator of information. For example, labeling your axes, using shedding patters, etc. to differentiate between data points. 
 
 You should use captions to title a figure (in a way that’s tied to the table). In Word and Google Docs, [you can right-click on tables to add a title][33]. In HTML, use this syntax around your image:
+
 	<figure>
 		<img src="image.jpg" alt="Image Alt Text">
 		<figcaption>Figure caption</figcaption>
