@@ -23,6 +23,7 @@ Remember these accessibility [guidelines from the U.K. Accessibility Office][7],
 * Don’t bury information in downloads
 * Use headings, subheadings, and videos
 * Spread interactives out over a document
+* Camel case your hashtags on social media to improve readability (#camelCaseCapitalizesTheFirstLetterOfEachWord)
 
 ## Universal Design for Learning
 [Universal Design for Learning][8], a framework designed by Anne Meyer and David Rose, supports teachers in designing high-quality learning experiences for all learners. While this includes accessible content, it is much more. UDL is designed to support all students, presenting materials in multiple ways, giving students flexibility to interact with the material in the way that works best for them, and provides for different ways for students to express their knowledge. The intent of a UDL classroom is inaccurately summarized as an “IEP for all students”, providing each with the supports and accommodations they need, which can reduce stigma for all students and provide them the tools they need. The core principle of UDL is that “designing for those on the margins improves the experience for all. 
