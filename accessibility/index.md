@@ -154,24 +154,24 @@ Google Docs does not have a tool like this built in. However, the [Grackle Docs 
 You can type with your voice In both [Google Docs][51] and [Microsoft Office][52] which is helpful for students with motor disabilities. Additionally, Microsoft Word will provide [readability statistics][53], and has a built in reading support tool called [Immersive Reader][54].  
 
 ## PDF Files
-The PDF format has significant problems with accessibility, especially when designed natively in Acrobat. The best practices are to [design in Word, and then export to PDF][55]. Confirm accessibility in Word before exporting. Additionally, it is recommended to make documents available in another format.
+PDFs are among the most difficult format types to make accessible, especially using Acrobat’s built-in tools. The best practices are to [design in Word, and then export to PDF][55]. Confirm accessibility in Word before exporting. Additionally, it is recommended to make documents available in another format.
 
-Documents that are scanned to PDF are not accessible.  
+Documents that are scanned to PDF are not accessible. The University of Arizona has a good [primer on PDF accessibility][56].  
 
 ## Websites and Web-Based Applications
-When designing a web page, consider all of the elements above, and use that to create proper, [semantically-styled HTML5][56]. While many built-in editors in content management systems like Moodle and WordPress will do a good job on their own, they may not be perfect and some manual code editing is sometimes (though rarely) required. The [WAVE tool][57] will check accessibility  for a website against the [Web Content Accessibility (WCAG) Guidelines][58]. The current version of WCAG guidelines is version 2.1. WCAG is based on a three-tier system from single-A to triple-A (AAA). WCAG-2.1-A guidelines are the least strict (and the most minimally accessible) while WCAG-2.1-AAA is the most strict. NC State policy requires compliance with [WCAG-2.1-AA][59]. 
+When designing a web page, consider all of the elements above, and use that to create proper, [semantically-styled HTML5][57]. While many built-in editors in content management systems like Moodle and WordPress will do a good job on their own, they may not be perfect and some manual code editing is sometimes (though rarely) required. The [WAVE tool][58] will check accessibility  for a website against the [Web Content Accessibility (WCAG) Guidelines][59]. The current version of WCAG guidelines is version 2.1. WCAG is based on a three-tier system from single-A to triple-A (AAA). WCAG-2.1-A guidelines are the least strict (and the most minimally accessible) while WCAG-2.1-AAA is the most strict. NC State policy requires compliance with [WCAG-2.1-AA][60]. 
 
 One particular element of WCAG-2.1-AA is navigation. For users using assistive or adaptive devices who may not be able to use a mouse, they should be able to navigate a website using only arrow keys (including Page-Up and Page-Down), the tab key to move between links, and the Enter key to select a link.
 
-Commercial web applications using a [Voluntary Product Accessibility Template][60] (VPAT) to indicate their compliance with WCAG or Section 508 standards. 
+Commercial web applications using a [Voluntary Product Accessibility Template][61] (VPAT) to indicate their compliance with WCAG or Section 508 standards. 
 
 ## The Checklists
-* [University of Washington][61]
-* [SUNY Broome][62]
-* [Cornell][63]
-* [NCDAE Cheat Sheets][64]
-* [Section 508 Website][65]
-* [A11Y Project][66]
+* [University of Washington][62]
+* [SUNY Broome][63]
+* [Cornell][64]
+* [NCDAE Cheat Sheets][65]
+* [Section 508 Website][66]
+* [A11Y Project][67]
 
 [1]:	https://www.access-board.gov/guidelines-and-standards/communications-and-it/about-the-ict-refresh/final-rule/text-of-the-standards-and-guidelines
 [2]:	https://www.section508.gov/manage/laws-and-policies#:~:text=Section%20504%20%2D%20Prohibits%20federal%20agencies,for%20qualified%20individuals%20with%20disabilities
@@ -228,17 +228,18 @@ Commercial web applications using a [Voluntary Product Accessibility Template][6
 [53]:	https://support.microsoft.com/en-us/office/get-your-document-s-readability-and-level-statistics-85b4969e-e80a-4777-8dd3-f7fc3c8b3fd2
 [54]:	https://www.onenote.com/learningtools
 [55]:	https://www.howtogeek.com/352668/how-to-convert-a-microsoft-word-document-to-a-pdf/
-[56]:	https://www.w3schools.com/html/html5_semantic_elements.asp
-[57]:	https://wave.webaim.org/
-[58]:	https://www.w3.org/TR/WCAG21/
-[59]:	https://www.w3.org/WAI/WCAG21/quickref/?currentsidebar=%23col_customize&levels=aaa
-[60]:	https://www.section508.gov/sell/vpat
-[61]:	https://depts.washington.edu/uwdrs/faculty/online-course-accessibility-checklist/
-[62]:	http://www3.sunybroome.edu/online/wp-content/uploads/sites/11/2019/05/Accessibility-Checklist-for-Online-Courses.pdf
+[56]:	https://itaccessibility.arizona.edu/content/pdf-accessibility
+[57]:	https://www.w3schools.com/html/html5_semantic_elements.asp
+[58]:	https://wave.webaim.org/
+[59]:	https://www.w3.org/TR/WCAG21/
+[60]:	https://www.w3.org/WAI/WCAG21/quickref/?currentsidebar=%23col_customize&levels=aaa
+[61]:	https://www.section508.gov/sell/vpat
+[62]:	https://depts.washington.edu/uwdrs/faculty/online-course-accessibility-checklist/
 [63]:	http://www3.sunybroome.edu/online/wp-content/uploads/sites/11/2019/05/Accessibility-Checklist-for-Online-Courses.pdf
-[64]:	http://ncdae.org/resources/cheatsheets/
-[65]:	https://www.section508.gov/create
-[66]:	https://www.a11yproject.com/
+[64]:	http://www3.sunybroome.edu/online/wp-content/uploads/sites/11/2019/05/Accessibility-Checklist-for-Online-Courses.pdf
+[65]:	http://ncdae.org/resources/cheatsheets/
+[66]:	https://www.section508.gov/create
+[67]:	https://www.a11yproject.com/
 
 [image-1]:	https://mjsamberg.github.io/courses/dlprograms/content/karwai-infographics.png
 [image-2]:	https://study.com/cimages/videopreview/videopreview-full/q9lhim9769.jpg
