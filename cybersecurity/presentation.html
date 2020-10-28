@@ -1,0 +1,221 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="../assets/reveal/reset.css">
+		<link rel="stylesheet" href="../assets/reveal/reveal.css">
+		<link rel="stylesheet" href="../assets/reveal/theme/ncstate-dark.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="../reveal/plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background-color="#990000">
+					<h1>Cybersecurity In K-12 Schools</h1>
+					<p>
+						Mark Samberg, Ed.D.<br/>
+						October 28, 2020
+					</p>
+				</section>
+				<section data-auto-animate>
+					<h2>Overview</h2>
+					<ul>
+						<li class="fragment fade">Highlight major threats to K-12</li>
+						<li class="fragment fade">
+							Discussions of Mitigation Factors
+							<ul>
+								<li class="fragment fade">Good Best Practices</li>
+								<li class="fragment fade">Network segmentation</li>
+								<li class="fragment fade">Datacenter configuration</li>
+								<li class="fragment fade">Privilege Separation</li>
+								<li class="fragment fade">User-facing policies, password policies and 2FA</li>
+								<li class="fragment fade">Data governance</li>
+							</ul>
+						</li>
+						<li class="fragment fade">Overview – Shodan Vulnerability Scanner</li>
+							
+					</ul>
+				</section>
+				<section data-auto-animate>
+					<h2>Major Threats in K-12</h2>
+					<ul>
+						<li>
+							Internal Actors
+							<ul>
+								<li class="fragment fade">Mistakes</li>
+								<li class="fragment fade">BYOD issues</li>
+								<li class="fragment fade">Oversharing</li>
+							</ul>
+						</li>
+						<li>
+							External Actors
+							<ul>
+								<li class="fragment fade">Phishing and Social Engineering</li>
+								<li class="fragment fade">Hacking</li>
+								<li class="fragment fade">Ransomware and malware</li>
+								<li class="fragment fade">Theft</li>
+								<li class="fragment fade">Vulnerabilities</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+				<section data-auto-animate>
+					<h2>Good Best Practices</h2>
+					<ul>
+						<li class="fragment fade">Monitor physical access to school buildings</li>
+						<li class="fragment fade">Monitor and log access to network equipment including data closets</li>
+						<li class="fragment fade">Use managed servers where possible</li>
+						<li class="fragment fade">
+							Transition from SMB-based storage to cloud-based storage
+							<ul>
+								<li class="fragment fade">And disable SMB everywhere you can</li>
+							</ul>
+						</li>
+						<li class="fragment fade">Train often</li>
+						<li class="fragment fade">Have a plan</li>
+					</ul>
+				</section>
+				<section data-auto-animate>
+					<h2>Network Segmentation</h2>
+					<ul>
+						<li class="fragment fade">Prevent devices from talking to each other on the network
+						<li class="fragment fade">Use VLANs to segment networks by device type
+						<li class="fragment fade">Use MAC Filtering to limit rogue devices
+						<li class="fragment fade">
+							Prevent Wi-Fi/student and teacher devices from seeing
+							<ul>
+								<li>Each other</li>
+								<li>Wired devices</li>
+							</ul>
+						</li>
+						<li class="fragment fade">
+							Use encrypted Wi-Fi networks with RADIUS authentication
+							<ul>
+								<li>Unencrypted guest networks should not have internal access</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+				<section data-auto-animate>
+					<h2>Data Center Configuration</h2>
+					<ul>
+						<li class="fragment fade">Use a firewall between network services and the rest of your network, even internally</li>
+						<li class="fragment fade">Open only ports that need to be open to the outside network</li>
+						<li class="fragment fade">Allow database access only to web server process by IP address</li>
+						<li class="fragment fade">Use virtual servers to limit the number of apps sharing a server</li>
+						<li class="fragment fade">Use reverse proxying or load balancers to sit between users and web servers</li>
+					</ul>
+				</section>
+				<section data-auto-animate>
+					<h2>Data Center Configuration</h2>
+					<ul>
+						<li class="fragment fade">Limit firewall ports from the outside, use VPNs whenever possible</li>
+						<li class="fragment fade">Audit firewall ports routinely</li>
+						<li class="fragment fade">Keep servers patched</li>
+						<li class="fragment fade">Use a log monitoring service</li>
+						<li class="fragment fade">Back up routinely, keep a recent backup cold and off-site at all times</li>
+					</ul>
+				</section>
+				<section data-auto-animate>
+					<h2>Privilege Separation</h2>
+					<ul>
+						<li class="fragment fade">Use separate accounts for privileged actions</li>
+						<li class="fragment fade">Keep workstation and domain admin accounts separate</li>
+						
+					</ul>
+				</section>
+				<section data-auto-animate>
+					<h2>Key Rotation</h2>
+					<ul>
+						<li class="fragment fade">Use Microsoft LAPS to secure local administrator passwords</li>
+						<li class="fragment fade">
+							Use key-based authentication for Linux servers and disable password authentication
+							<ul>
+								<li>Rotate keys at least yearly</li>
+								<li>Ideally use a key per server</li>
+								<li>Use one key per user per machin</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+				<section data-auto-animate>
+					<h2>User-Facing Policies</h2>
+					<ul>
+						<li class="fragment fade">Encrypt local storage on end-user devices</li>
+						<li class="fragment fade">Require yearly password changes</li>
+						<li class="fragment fade">Train users on phishing and social engineering attacks</li>
+						<li class="fragment fade">Have a robust BYOD policy</li>
+						<li class="fragment fade">Use VPN for off-site applications</li>
+						<li class="fragment fade">Use antivirus and anti-malware services on devices</li>
+						<li class="fragment fade">Require 2FA for all users with access to privileged data</li>
+					</ul>
+				</section>
+				<section data-auto-animate>
+					<h2>Data Governance</h2>
+					<h3>NC State Data Security Matrix</h3>
+					<img data-src="state-matrix.png">
+				</section>
+				<section data-auto-animate>
+					<h2>Data Governance</h2>
+					<h3>NC State Data Security Matrix</h3>
+					<img data-src="uncc-matrix.png">
+				</section>
+				<section data-auto-animate>
+					<h2>Data Governance</h2>
+					<h3>Considerations</h3>
+					<ul>
+						<li class="fragment fade">Who can collect/see what…</li>
+						<li class="fragment fade">Cloud storage vs. SMB storage
+						<li class="fragment fade">Controlling accidental release
+						<li class="fragment fade">Sharepoint/Team Drives vs. Folder</li>
+						<li class="fragment fade">Local storage</li>
+						<li class="fragment fade">USB storage</li>
+						<li class="fragment fade">BYOD access</li>
+				</section>
+				<section data-auto-animate>
+					<h2>Shodan Vulnerability Scanner</h2>
+					<h3>What is it?</h3>
+					<ul>
+						<li class="fragment fade">Scans the entire Internet routinely</li>
+						<li class="fragment fade">Queries IP addresses to find open ports and CVEs</li>
+						<li class="fragment fade">Publicly accessible</li>
+					</ul>
+				</section>
+				<section data-auto-animate>
+					<h2>Shodan Vulnerability Scanner</h2>
+					<h3>What to do about it?</h3>
+					<ul>
+						<li class="fragment fade">Close all unnecessary ports</li>
+						<li class="fragment fade">Patch operating systems, firewalls, and applications</li>
+						<li class="fragment fade">Review CVEs to determine if they impact you</li>
+					</ul>
+				</section>
+				<section data-background-color="#cc0000">
+					<h2>Questions?</h2>
+				</section>
+			</div>
+		</div>
+
+		<script src="../assets/reveal/reveal.js"></script>
+		<script src="../assets/reveal-plugins/notes/notes.js"></script>
+		<script src="../assets/reveal-plugins/markdown/markdown.js"></script>
+		<script src="../assets/reveal-plugins/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
