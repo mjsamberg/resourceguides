@@ -8,23 +8,42 @@ title: Open Educational Resources
 </div>
 <hr class="mb-5">
 
-<strong>Open Educational Resources</strong> are freely accessible, openly-licensed resources that are used in academic settings including teaching and learning. OER is part of the Venn diagram of "free stuff on the Internet", though OER may not be free of cost and may not be on the Internet.
+# Resources
 
-* Roots of OER are in Open Source (i.e. software)
-	* Transparency
-	* Participation
-	* Collaboration
+## OER Background
+* [Definition](http://opencontent.org/definition/)
+* [US Department of Education: Go Open](https://tech.ed.gov/open/)
+* [UNESCO OER Initiative](https://en.unesco.org/themes/building-knowledge-societies/oer)
 
-* Principles of OER
-	* 
-	
-* Free
+## Creative Commons
+* [Creative Commons Licenses](https://creativecommons.org/choose/#metadata)
+* [Free Culture Licensing](https://creativecommons.org/share-your-work/public-domain/freeworks)
+* [Fair Use in Copyright](https://fairuse.stanford.edu/overview/fair-use/)
 
+## OER Evaluation
+* [Friday Institute Rubric](https://ncdli.fi.ncsu.edu/resources/docs/content_quality_review_tools.pdf)
+* [EQUIP Rubrics](https://www.achieve.org/files/AchieveOERRubrics_1.pdf)
 
-* Grain Size
+## OER Examples
+### Learning Objects
+* [OER Commons](https://www.oercommons.org)
+* [GoOpen NC](https://goopennc.oercommons.org)
+* [MERLOT](https://www.merlot.org/merlot/)
 
-* Evaluation
+### Textbooks
+* [CK-12](http://www.ck12.org)
+* [OpenStax](https://openstax.org)
+* [UMN Open Textbook Library](https://open.umn.edu/opentextbooks/)
 
-* Implications for Students
+### Courses
+* [MIT Open Courseware](https://ocw.mit.edu/index.htm)
+* [OpenUP]
+* [ECI 518](https://mjsamberg.github.io/courses/dlprograms/index.html)
 
-* Creating your own (Tools)
+## Open Pedagogy
+* [Definition](https://opencontent.org/blog/archives/2975)
+* [Defining OER-Enabled Pedagogy (Wiley & Hilton, 2018)](http://www.irrodl.org/index.php/irrodl/article/view/3601/4724)
+* [Renewable Assignemnts](http://flexible.learning.ubc.ca/news-events/renewable-assignments-student-work-adding-value-to-the-world/)
+* [Open Learning Experience Rubric](http://xolotl.org/okp-learning-experience-rubric/)
+
+## [OER  and Open Pedagogy At NC State](https://www.lib.ncsu.edu/do/open-education)
