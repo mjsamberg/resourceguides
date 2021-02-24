@@ -51,3 +51,5 @@ title: Open Educational Resources
 * [Hypothes.is](https://web.hypothes.is)
 
 ## [OER  and Open Pedagogy At NC State](https://www.lib.ncsu.edu/do/open-education)
+
+## [Open Education Week is Next Week!](https://www.openeducationweek.org)
