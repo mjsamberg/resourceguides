@@ -46,4 +46,8 @@ title: Open Educational Resources
 * [Renewable Assignemnts](http://flexible.learning.ubc.ca/news-events/renewable-assignments-student-work-adding-value-to-the-world/)
 * [Open Learning Experience Rubric](http://xolotl.org/okp-learning-experience-rubric/)
 
+## Tools
+* [GitHub](http://www.github.com)
+* [Hypothes.is](https://web.hypothes.is)
+
 ## [OER  and Open Pedagogy At NC State](https://www.lib.ncsu.edu/do/open-education)
