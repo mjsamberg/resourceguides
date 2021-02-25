@@ -37,7 +37,7 @@ title: Open Educational Resources
 
 ### Courses
 * [MIT Open Courseware](https://ocw.mit.edu/index.htm)
-* [OpenUP]
+* [Open UP](https://openupresources.org/frequently-asked-questions/open-up-resources-6-8-math-nc-license/)
 * [ECI 518](https://mjsamberg.github.io/courses/dlprograms/index.html)
 
 ## Open Pedagogy
@@ -48,6 +48,12 @@ title: Open Educational Resources
 
 ## Tools
 * [GitHub](http://www.github.com)
+  * [NC State's GitHub](http://github.ncsu.edu)
+* GitHub Pages
+  * [Markdown Basics](https://opensource.com/article/19/9/introduction-markdown)
+  * [Getting Started w/ Github Pages](https://guides.github.com/features/pages/)
+  * [GitHub Pages Template w/ NC State Branding](https://github.ncsu.edu/mjsamber/ncstate-github-pages)
+  
 * [Hypothes.is](https://web.hypothes.is)
 
 ## [OER  and Open Pedagogy At NC State](https://www.lib.ncsu.edu/do/open-education)
