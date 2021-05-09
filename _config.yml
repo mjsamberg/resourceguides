@@ -16,18 +16,17 @@
 title: Resource Guides
 ncstate_brand_search_code: 018149703590495268473:u8ozjjclv58
 ncstate_brand_search_placeholder: Search FI
-unit_name_long: "William and Ida Friday Institute<br/>For Educational Innovation"
-address: "1890 Main Campus Drive<br/>Raleigh, NC 27606<br/>919.513.8551"
-college_name: College Of Education
-college_url: https://ced.ncsu.edu
-unit_url: https://www.fi.ncsu.edu
+unit_name_long: ""
+address: ""
+college_name: 
+college_url: 
+unit_url: 
 email: "mjsamber@ncsu.edu"
 description: >- # this means to ignore newlines until "baseurl:"
   Resource guides.
 #baseurl: "" # the subpath of your site, e.g. /blog
 #url: "" # the base hostname & protocol for your site, e.g. http://example.com
-facebook_username: TheFridayInstitute
-twitter_username: fridayinstitute
+twitter_username: mjsamberg
 github_username:  mjsamberg
 github_url: 
 
