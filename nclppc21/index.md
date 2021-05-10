@@ -22,7 +22,8 @@ title: 2021 NC Libraries Paraprofessional Conference
 * [Connected Learning Infographic](https://clalliance.org/resources/connected-learning-infographic/)
 * [Connected Learning Alliance](https://clalliance.org)
 
-### [Mozilla Web Literacy Framework](https://foundation.mozilla.org/en/initiatives/web-literacy/)
+### Web Literacy
+* [Mozilla Web Literacy Framework](https://foundation.mozilla.org/en/initiatives/web-literacy/)
 
 ### Internet Access
 * **[NC Broadband Survey - http://ncbroadband.gov/survey](http://ncbroadband.gov/survey)**
@@ -44,10 +45,42 @@ title: 2021 NC Libraries Paraprofessional Conference
 
 ### Digital Programming
 * [Virtual and Non-Virtual Programming Ideas and Resources for Adults](https://libraries.vermont.gov/covid19/virtualprogram_adult)
-### Social-Emotional Learning
 
+### Social-Emotional Learning
 * [SEL Framework - CASEL](https://casel.org/sel-framework/)
 * [Collaborative for Academic, Social, and Emotional Learning (CASEL)](https://casel.org)
 
 ### Design for All
 * [The Myth of Average](https://youtu.be/4eBmyttcfU4)
+* [Universal Design for Learning](https://udlguidelines.cast.org)
+* [UDL At-A-Glance (Video)](https://youtu.be/bDvKnY0g6e4)
+* [Executive Functioning](https://www.understood.org/en/learning-thinking-differences/child-learning-disabilities/executive-functioning-issues/what-is-executive-function)
+  * [Working Memory](https://www.understood.org/en/learning-thinking-differences/child-learning-disabilities/executive-functioning-issues/working-memory-what-it-is-and-how-it-works)
+  * [Cognitive Flexibility](https://www.foothillsacademy.org/community-services/parent-education/parent-articles/cognitive-flexibility)
+  * [Inhibitory Control](http://www.educationalneuroscience.org.uk/resources/the-adolescent-brain/inhibitory-control/)
+* [Self-Regulation](https://www.understood.org/en/learning-thinking-differences/child-learning-disabilities/sensory-processing-issues/trouble-with-self-regulation-what-you-need-to-know)
+  * [Interoception](https://www.understood.org/en/learning-thinking-differences/child-learning-disabilities/sensory-processing-issues/interoception-and-sensory-processing-issues-what-you-need-to-know)
+  * [Proprioception](https://www.vox.com/the-highlight/2019/11/22/20920762/proprioception-sixth-sense)
+  * [Vestibular Sense](https://eyaslanding.com/the-vestibular-and-proprioceptive-systems-the-sixth-and-seven-senses/)
+  
+#### Digital Accessibility
+* [UK Accessibility Office - Design Posters](https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/)
+* **[Accessibility Resource Guide](https://mjsamberg.github.io/resourceguides/accessibility/)** (Lots of Links and Guides)
+* [Microsoft Immersive Reader](https://www.microsoft.com/en-us/education/products/learning-tools)
+* [Unofficial Immersive Reader Plugin for Chrome](https://chrome.google.com/webstore/detail/use-immersive-reader-on-w/fmidkjgknpkbmninbmklhcgaalfalbdh?hl=en-US)
+* [UDL Book Builder](http://bookbuilder.cast.org)
+* [CastFiguration](http://figuration.org)
+
+### Library Policies
+* [Social Justice and Libraries: What Your Library Can Do](https://guides.masslibsystem.org/socialjustice/Libraries)
+* [How Eliminating Library Fees Advances Racial Equity](https://www.urbanlibraries.org/blog/how-eliminating-library-fees-advances-racial-equity)
+
+### Cybersecurity
+* [Cybersecurity in K-12: An Overview of the Threat Landscape](Cybersecurity in K-12: An Overview of the Threat Landscape)
+* [K-12 Cybersecurity Resource Center](https://k12cybersecure.com/map/)
+* [Crippling ransomware attacks targeting US cities on the rise](Crippling ransomware attacks targeting US cities on the rise)
+* [How to Read a Privacy Policy](https://oag.ca.gov/privacy/facts/online-privacy/privacy-policy)
+* [7 Simple Ways to Protect Your Digital Privacy](https://www.nytimes.com/wirecutter/blog/7-simple-ways-to-protect-your-digital-privacy/)
+* [Password managers can be a pain but they're good for security](https://www.cnet.com/news/password-managers-a-little-pain-for-a-lot-better-security-world-password-day/)
+* [Two-Factor Authentication: Who Has It and How to Set It Up](https://www.pcmag.com/how-to/two-factor-authentication-who-has-it-and-how-to-set-it-up)
+* [2FA Directory](https://2fa.directory)
