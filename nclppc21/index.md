@@ -6,6 +6,7 @@ title: 2021 NC Libraries Paraprofessional Conference
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="presentation.html"></iframe>
 </div>
+<a href="presentation.html" target="_blank">(Presentation Link)</a>
 <hr class="mb-5">
 
 ## Resources
