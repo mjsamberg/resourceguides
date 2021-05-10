@@ -35,6 +35,7 @@ repository: "mjsamberg/resourceguides"
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-target-blank
 
 # A list of the pages to display in the navigation bar
 header_pages:
