@@ -63,7 +63,7 @@ title: 2021 NC Libraries Paraprofessional Conference
   * [Proprioception](https://www.vox.com/the-highlight/2019/11/22/20920762/proprioception-sixth-sense)
   * [Vestibular Sense](https://eyaslanding.com/the-vestibular-and-proprioceptive-systems-the-sixth-and-seven-senses/)
   
-#### Digital Accessibility
+### Digital Accessibility
 * [UK Accessibility Office - Design Posters](https://accessibility.blog.gov.uk/2016/09/02/dos-and-donts-on-designing-for-accessibility/)
 * **[Accessibility Resource Guide](https://mjsamberg.github.io/resourceguides/accessibility/)** (Lots of Links and Guides)
 * [Microsoft Immersive Reader](https://www.microsoft.com/en-us/education/products/learning-tools)
@@ -84,3 +84,17 @@ title: 2021 NC Libraries Paraprofessional Conference
 * [Password managers can be a pain but they're good for security](https://www.cnet.com/news/password-managers-a-little-pain-for-a-lot-better-security-world-password-day/)
 * [Two-Factor Authentication: Who Has It and How to Set It Up](https://www.pcmag.com/how-to/two-factor-authentication-who-has-it-and-how-to-set-it-up)
 * [2FA Directory](https://2fa.directory)
+
+### Creating and Remixing Content
+* [Makerspaces: Public Library Association](http://www.ala.org/pla/resources/tools/technology/makerspaces)
+* [Code.org](http://www.code.org)
+* [FreeCodeCamp](https://www.freecodecamp.org)
+* [AdaFruit](https://www.adafruit.com)
+* [Thingiverse](https://www.thingiverse.com)
+* [GitHub](http://www.github.com)
+* [Digital Public Library of America](https://dp.la)
+* [Creative Commons](http://www.creativecommons.org)
+* [CC License Chooser](https://creativecommons.org/choose/)
+* [CC vs Copyright](https://www.workmadeforhire.net/the-rest/whats-the-difference-between-copyright-and-creative-commons/)
+* [How and why to use Creative Commons licensed work](https://opensource.com/article/20/1/what-creative-commons)
+
