@@ -85,6 +85,7 @@ title: 2021 NC Libraries Paraprofessional Conference
 * [Password managers can be a pain but they're good for security](https://www.cnet.com/news/password-managers-a-little-pain-for-a-lot-better-security-world-password-day/){:target="_blank"}
 * [Two-Factor Authentication: Who Has It and How to Set It Up](https://www.pcmag.com/how-to/two-factor-authentication-who-has-it-and-how-to-set-it-up){:target="_blank"}
 * [2FA Directory](https://2fa.directory)
+* [Phishing Test](https://www.phishingbox.com/phishing-iq-test)
 
 ### Creating and Remixing Content
 * [Makerspaces: Public Library Association](http://www.ala.org/pla/resources/tools/technology/makerspaces){:target="_blank"}
