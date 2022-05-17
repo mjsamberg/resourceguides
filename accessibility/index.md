@@ -241,6 +241,6 @@ Commercial web applications using a [Voluntary Product Accessibility Template][6
 [66]:	https://www.section508.gov/create
 [67]:	https://www.a11yproject.com/
 
-[image-1]:	https://mjsamberg.github.io/courses/dlprograms/content/karwai-infographics.png
+[image-1]:	https://accessibility.blog.gov.uk/wp-content/uploads/sites/52/2016/08/Karwai-blog-1-1.png
 [image-2]:	https://study.com/cimages/videopreview/videopreview-full/q9lhim9769.jpg
 [image-3]:	bellschedule.png
