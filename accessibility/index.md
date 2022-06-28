@@ -7,6 +7,19 @@ title: Accessibility
   <iframe class="embed-responsive-item" src="presentation.html"></iframe>
 </div>
 <hr class="mb-5">
+
+## Principles of Universal Design
+* [The Myth of Average](https://www.youtube.com/watch?v=4eBmyttcfU4)
+* [Principles of Universal Design](https://projects.ncsu.edu/ncsu/design/cud/pubs_p/docs/poster.pdf)
+
+## Universal Design for Learning
+[Universal Design for Learning][8], a framework designed by Anne Meyer and David Rose, supports teachers in designing high-quality learning experiences for all learners. While this includes accessible content, it is much more. UDL is designed to support all students, presenting materials in multiple ways, giving students flexibility to interact with the material in the way that works best for them, and provides for different ways for students to express their knowledge. The intent of a UDL classroom is inaccurately summarized as an “IEP for all students”, providing each with the supports and accommodations they need, which can reduce stigma for all students and provide them the tools they need. The core principle of UDL is that “designing for those on the margins improves the experience for all. 
+
+The UDL framework recommends providing multiple means of:
+* **Engagement**. Specifically, UDL recommends providing student choice and autonomy in assignments and instructional materials, ensuring that instruction has perceived value and relevance for students and that threats are minimized. UDL also recommends providing options for sustaining student effort including high-salience goals, fostering collaboration and community, and increasing mastery-oriented feedback.
+* **Representation**. In addition to providing accessible content, UDL recommends that content is represented in multiple different means (i.e. video, audio, reading, and graphical), that vocabulary is made clear, that multiple media types are used, and that content is framed in the context of both existing background knowledge and generalizability.
+* **Action and Expression**. In addition to allowing students the flexibility to express their knowledge in different ways, UDL recommends providing students options for fostering executive functioning including supporting goal setting, planning, information management, and progress monitoring.
+
 ## Legal Requirements for Accessibility
 * [Section 508 of the Rehabilitation Act of 1973][1] ([Overview][2])
 * [Section 504 of the Rehabilitation Act of 1973][3]
@@ -24,14 +37,6 @@ Remember these accessibility [guidelines from the U.K. Accessibility Office][7],
 * Use headings, subheadings, and videos
 * Spread interactives out over a document
 * Camel case your hashtags on social media to improve readability (#camelCaseCapitalizesTheFirstLetterOfEachWord)
-
-## Universal Design for Learning
-[Universal Design for Learning][8], a framework designed by Anne Meyer and David Rose, supports teachers in designing high-quality learning experiences for all learners. While this includes accessible content, it is much more. UDL is designed to support all students, presenting materials in multiple ways, giving students flexibility to interact with the material in the way that works best for them, and provides for different ways for students to express their knowledge. The intent of a UDL classroom is inaccurately summarized as an “IEP for all students”, providing each with the supports and accommodations they need, which can reduce stigma for all students and provide them the tools they need. The core principle of UDL is that “designing for those on the margins improves the experience for all. 
-
-The UDL framework recommends providing multiple means of:
-* **Engagement**. Specifically, UDL recommends providing student choice and autonomy in assignments and instructional materials, ensuring that instruction has perceived value and relevance for students and that threats are minimized. UDL also recommends providing options for sustaining student effort including high-salience goals, fostering collaboration and community, and increasing mastery-oriented feedback.
-* **Representation**. In addition to providing accessible content, UDL recommends that content is represented in multiple different means (i.e. video, audio, reading, and graphical), that vocabulary is made clear, that multiple media types are used, and that content is framed in the context of both existing background knowledge and generalizability.
-* **Action and Expression**. In addition to allowing students the flexibility to express their knowledge in different ways, UDL recommends providing students options for fostering executive functioning including supporting goal setting, planning, information management, and progress monitoring.
 
 ## Videos and Video Chats
 Videos and video chats need two primary supports: captions and accessible visuals.
