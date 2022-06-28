@@ -1,11 +1,9 @@
 ---
 layout: page
-title: Accessibility
+title: Accessibility in Virtual Learning
 ---
 <h2 class="sr-only">Presentation</h2>
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe class="embed-responsive-item" src="presentation.html"></iframe>
-</div>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSOpwR0W8gSrY-6VOU6jPjk4XZGv0ZTdCcYBdOpqUumdQhezBeq1MdDNERioBlNvZLvq0Py2TisBVVt/embed?start=true&loop=true&delayms=60000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 <hr class="mb-5">
 
 ## Legal Requirements for Accessibility
