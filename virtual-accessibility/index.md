@@ -119,6 +119,8 @@ In a pre-made video or a meeting recording,  captions are a bit easier:
 * Machine-Generated Captions
 	* [Zoom will automatically create a webpage with captions for cloud recordings, if enabled][22].
 	* When uploading a video to YouTube, [YouTube will automatically create captions][23] within a few hours after upload.
+	* [Google Slides](https://support.google.com/docs/answer/9109474?hl=en) and [PowerPoint](https://support.microsoft.com/en-us/office/present-with-real-time-automatic-captions-or-subtitles-in-powerpoint-68d20e49-aec3-456a-939d-34a79e8ddd5f) both support live captions.
+	* [WebCaptioner](https://webcaptioner.com) can caption in a separate window.
 * Human-Generated Captions
 	* [Rev.com][24] offers a service that will transcribe video and audio files for you. Rev.com can automatically push corrected captions to YouTube. 
 	* Automatic [captions in YouTube can be corrected][25] to be more accurate. If a video is kept unlisted or private, you can keep it from being discoverable while enabling these features.
