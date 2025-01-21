@@ -42,3 +42,4 @@ title: Introduction to GitHub
 * [GitHub Wikis](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis)
 * [GitHub Pages](https://pages.github.com)
 * [GitHub Classroom](https://classroom.github.com)
+* [GitHub Codespaces](https://github.com/features/codespaces)
