@@ -13,7 +13,14 @@ title: Introduction to GitHub
 * [Intro to GitHub (YouTube)](https://www.youtube.com/watch?v=g0NBVOiPFWA)
 * [GitHub - Get Started](https://www.github.com)
 * [GitHub Desktop](https://github.com/apps/desktop)
+* [GitHub Web Interface](https://e115.engr.ncsu.edu/campus-resources/github/)
+* [GitHub CLI](https://e115.engr.ncsu.edu/git-and-github/command-line-git/)
 * [Join GitHub Education](https://github.com/education/teachers)
+
+## Good Text Editors
+* [Visual Studio Code](https://code.visualstudio.com)
+* [Notepad++ (Windows)](https://notepad-plus-plus.org)
+* [BBEdit (Mac)](https://www.barebones.com/products/textwrangler/)
 
 ## Not Just Code (But also, Code)
 * [Infinite Campus Third Party Integrations](https://github.com/NCSIS/InfiniteCampus-Vendor-Integration)
